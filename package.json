@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-theme-ant",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev demo",
+    "build": "vuepress build demo"
+  },
+  "keywords": [
+    "ant design style",
+    "blog",
+    "theme",
+    "vuepress"
+  ],
+  "devDependencies": {
+    "vuepress": "next"
+  },
+  "dependencies": {
+  }
+}
