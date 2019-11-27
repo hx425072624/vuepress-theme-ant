@@ -1,8 +1,11 @@
 <template>
   <div>
     <Header></Header>
-    <Posts :posts="$pagination.pages"></Posts>
-    <Pagination></Pagination>
+
+    <div class="post-list">
+      <Posts :posts="$pagination.pages"></Posts>
+      <Pagination class="page-right"></Pagination>
+    </div>
   </div>
 </template>
 
@@ -15,5 +18,13 @@ export default {
   components: { Header, Pagination, Posts }
 };
 </script>
-<style>
+<style scope>
+.post-list {
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.page-right{
+  text-align: right;
+}
 </style>

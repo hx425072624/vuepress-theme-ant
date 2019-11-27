@@ -5,7 +5,9 @@ module.exports = (themeConfig, ctx) => {
       ["@vuepress/plugin-back-to-top"],
       ["@vuepress/plugin-medium-zoom"],
       ["@vuepress/plugin-nprogress"],
-      ["@vuepress/plugin-search"],
+      ["@vuepress/plugin-search", {
+        searchMaxSuggestions: 10
+      }],
       ['@vuepress/blog', {
         directories: [
           {
