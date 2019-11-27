@@ -3,7 +3,7 @@
     <Header></Header>
     <div class="tags">
       <List :grid="{ gutter: 16, column: 8 }" :dataSource="$tag.list">
-        <ListItem  slot="renderItem" slot-scope="item, index">
+        <ListItem  slot="renderItem" slot-scope="item">
            <router-link class="ant-tag" :to="{ path: item.path }">{{
             item.name
           }}</router-link>

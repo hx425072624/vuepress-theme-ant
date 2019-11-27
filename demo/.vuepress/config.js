@@ -1,6 +1,6 @@
 module.exports = {
   title: 'vuepress-theme-ant',
-  base: '/vuepress-theme-ant',
+  base: '/vuepress-theme-ant/',
   theme: require.resolve('../../'),
   head: [
     [
